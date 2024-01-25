@@ -1,0 +1,13 @@
+Two Forces 30 N and 40 N act a point “O”. The included angle between them is 600.Find the magnitude and the direction of the resultan
+import math
+# Given values
+F1 = 30  # N
+F2 = 40  # N
+theta = 60  # degrees
+# Calculate the resultant force (R)
+R = math.sqrt(F1**2 + F2**2 + 2 * F1 * F2 * math.cos(math.radians(theta)))
+# Calculate the direction of the resultant (alpha) in degrees
+alpha = math.degrees(math.atan2(F2 * math.sin(math.radians(theta)), (F1 + F2 * math.cos(math.radians(theta)))))
+# Display the results
+print(f"Resultant force (R): {R:.2f} N")
+print(f"Direction of the resultant (alpha): {alpha:.2f} degrees")
