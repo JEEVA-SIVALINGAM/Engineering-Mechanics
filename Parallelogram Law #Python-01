@@ -1,4 +1,4 @@
-Two Forces 30 N and 40 N act a point “O”. The included angle between them is 600.Find the magnitude and the direction of the resultan
+Two Forces 30 N and 40 N act a point “O”. The included angle between them is 600.Find the magnitude and the direction of the resultant
 import math
 # Given values
 F1 = 30  # N
